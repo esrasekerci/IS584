@@ -14,7 +14,6 @@ This repository contains assignment submissions for **IS584: Deep Learning for T
   - Comparison with GloVe-based embeddings
   - Embedding visualization via PCA and t-SNE
   - Error analysis and improved preprocessing (lemmatization + POS)
-- **Report**: [`IS_584_Assignment_1.pdf`](./IS_584_Assignment_1.pdf)
 
 ---
 
@@ -25,7 +24,6 @@ This repository contains assignment submissions for **IS584: Deep Learning for T
   - Pseudo-perplexity computation
   - Sentence masking, training, and generation
   - Evaluation using validation/test perplexity and masked token predictions
-- **Report**: [`IS_584_Assignment_2.pdf`](./IS_584_Assignment_2.pdf)
 
 ---
 
