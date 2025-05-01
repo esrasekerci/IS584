@@ -1,22 +1,39 @@
-# IS584 Assignments
+# IS584: Deep Learning for Text Analytics — Assignments
 
-This repository contains assignment submissions for the IS584 course: **Deep Learning for Text Analytics** at Middle East Technical University (METU).
+This repository contains assignment submissions for **IS584: Deep Learning for Text Analytics**, offered at Middle East Technical University (METU), Spring 2025.
+
+---
 
 ## Contents
 
-- `assignment_1/`  
-  Implementation of classification models using EmbeddingBag, GloVe embeddings, and visualization techniques (e.g., t-SNE) for peer review analysis.
+### `assignment_1/`
+- **Topic**: Meta-review classification from the ICLR ASAP-Review dataset
+- **Tasks**:
+  - Custom neural network with `EmbeddingBag`
+  - Evaluation with confusion matrix, precision/recall, F1, Cohen’s Kappa
+  - Comparison with GloVe-based embeddings
+  - Embedding visualization via PCA and t-SNE
+  - Error analysis and improved preprocessing (lemmatization + POS)
+- **Report**: [`IS_584_Assignment_1.pdf`](./IS_584_Assignment_1.pdf)
 
-- `assignment_2/`  
-  Experiments with large language models for review classification, including fine-tuning and interpretability evaluation.
+---
 
-- `IS584_mini_assignment_2698215.pdf`  
-  Mini-assignment PDF submission summarizing early course concepts.
+### `assignment_2/`
+- **Topic**: Custom BERT-based masked language model for *The Hunger Games*
+- **Tasks**:
+  - Manual construction of a masked language head (not using `BertForMaskedLM`)
+  - Pseudo-perplexity computation
+  - Sentence masking, training, and generation
+  - Evaluation using validation/test perplexity and masked token predictions
+- **Report**: [`IS_584_Assignment_2.pdf`](./IS_584_Assignment_2.pdf)
+
+---
 
 ## Notes
 
-All assignments are structured as Jupyter notebooks and include:
-- In-line code explanations
-- Model evaluation metrics
-- Error analysis
-- Accompanying formal reports
+All assignments include:
+- Jupyter Notebooks with visible outputs and random seeds
+- Detailed in-line explanations
+- Model evaluation and comparison
+- Error analysis and qualitative insights
+- Accompanying high-resolution PDF reports (≥200 DPI)
